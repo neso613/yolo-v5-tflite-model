@@ -400,7 +400,7 @@ def detect(opt):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--weights', nargs='+', type=str, default='weights/yolov5sdynm_range.tflite', help='model.pt path(s)')
+    parser.add_argument('--weights', nargs='+', type=str, default='yolov5_dynm_range.tflite', help='model.pt path(s)')
     parser.add_argument('--source', type=str, default='images', help='source')  # file/folder, 0 for webcam
     parser.add_argument('--img-size', nargs='+', type=int, default=[320, 320], help='image size')  # height, width
     parser.add_argument('--conf-thres', type=float, default=0.25, help='object confidence threshold')
