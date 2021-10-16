@@ -2,7 +2,8 @@
 
 YOLOv5 - most advanced vision AI model for object detection. Natively implemented in PyTorch and exportable to TFLite for use in edge solutions. This repository provides an Object Detection model in TensorFlow Lite (TFLite) for TensorFlow 2.x. These models primarily come from two repositories - [ultralytics](https://github.com/ultralytics/yolov5) and [zldrobit](https://github.com/zldrobit/yolov5). We provide end-to-end code that show the inference process using TFLite and model conversion.\
 [English-ASR pip wheel](https://pypi.org/project/english-asr/1.2/)\
-[TFHub](https://tfhub.dev/neso613/lite-model/yolo-v5-tflite/tflite_model/1)
+[TFHub](https://tfhub.dev/neso613/lite-model/yolo-v5-tflite/tflite_model/1)\
+live streaming is the future work.
 
 ## Installation
 - pip3 install -r requirements.txt
